@@ -1,0 +1,23 @@
+{
+  "id": "helpscout",
+  "name": "Help Scout",
+  "version": "1.0.0",
+  "description": "Help Scout",
+  "main": "index.js",
+  "author": "Brian Gilbert <brian@briangilbert.net>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://secure.helpscout.net/",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasDirectMessages": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "hasPredefinedUrl": true,
+    "hasCustomUrl": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    }
+  }
+}
